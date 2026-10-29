@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Mini Project Group Allotment</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+        <h2>Mini Project Group Allotment Entry</h2>
+        <form action="result.jsp" method="post"
+        <label>Group No</label>
+        <input type="number" name="group_no" min="1" required>
+        <br><br>
+
+        <label>Member 1</label>
+        <input type="text" name="member1"maxlength="40" required>
+        <br><br>
+
+        <label>Member 2</label>
+        <input type="text" name="member2"maxlength="40" required>
+        <br><br>
+
+        <label>Guide</label>
+        <select name="guide"required>
+            <option value="">Select Guide
+            </option>
+            <option value="Prof.Sabale">Prof.Sabale</option>
+            <option value="Prof.Gavate">Prof.Gavate</option>
+            <option value="Prof.Phade">Prof.Phade</option>
+        </select>
+        <br><br>
+        <button type="submit">save</button>
+        <br><br>
+        </div>
+    </body>
+</html>
